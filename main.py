@@ -24,4 +24,19 @@ class Warrior():
         print(f'Имя война {self.name}')
         print(f'Сила война {self.power}')
         print(f'Выносливость война {self.endurance}')
-        print(f'Цветволос война {self.hair_color}')
+        print(f'Цвет волос война {self.hair_color}')
+
+war1 = Warrior('Павел', 76, 54, 'красный')
+war2 = Warrior('Егор', 64, 72, 'белый')
+
+war1.sleep()
+war1.eat()
+war1.walk()
+war1.hit()
+war1.info()
+
+war2.sleep()
+war2.eat()
+war2.walk()
+war2.hit()
+war2.info()
